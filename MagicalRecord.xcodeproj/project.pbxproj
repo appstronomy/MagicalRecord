@@ -389,7 +389,7 @@
 		90AA771918F79A3300D49377 /* NSManagedObject+MagicalRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA771718F79A3300D49377 /* NSManagedObject+MagicalRecordTests.m */; };
 		90AA772518F79CCC00D49377 /* EntityWithoutEntityNameMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA772418F79CCC00D49377 /* EntityWithoutEntityNameMethod.m */; };
 		90AA772618F79CCC00D49377 /* EntityWithoutEntityNameMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA772418F79CCC00D49377 /* EntityWithoutEntityNameMethod.m */; };
-		90B05B861B02450900354056 /* MagicalRecordShorthandMethodAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B05B851B02450900354056 /* MagicalRecordShorthandMethodAliases.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B05B861B02450900354056 /* MagicalRecordShorthandMethodAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B05B851B02450900354056 /* MagicalRecordShorthandMethodAliases.h */; };
 		90B05B871B02450900354056 /* MagicalRecordShorthandMethodAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B05B851B02450900354056 /* MagicalRecordShorthandMethodAliases.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B05B8B1B02452A00354056 /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B05B891B02452A00354056 /* MagicalRecord+ShorthandMethods.h */; };
 		90B05B8C1B02452A00354056 /* MagicalRecord+ShorthandMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B05B891B02452A00354056 /* MagicalRecord+ShorthandMethods.h */; };
@@ -1217,7 +1217,6 @@
 				905D07591A63DEF40076B54E /* NSNumber+MagicalDataImport.h in Headers */,
 				905D076D1A63DEF40076B54E /* MagicalRecord+Options.h in Headers */,
 				905D07691A63DEF40076B54E /* MagicalRecordInternal.h in Headers */,
-				90B05B861B02450900354056 /* MagicalRecordShorthandMethodAliases.h in Headers */,
 				905D07571A63DEF40076B54E /* NSAttributeDescription+MagicalDataImport.h in Headers */,
 				905D07621A63DEF40076B54E /* NSManagedObjectContext+MagicalObserving.h in Headers */,
 				905D075E1A63DEF40076B54E /* NSManagedObject+MagicalFinders.h in Headers */,
@@ -1227,6 +1226,7 @@
 				905D07631A63DEF40076B54E /* NSManagedObjectContext+MagicalRecord.h in Headers */,
 				905D075C1A63DEF40076B54E /* NSManagedObject+MagicalAggregation.h in Headers */,
 				905D07701A63DEF40076B54E /* MagicalRecordLogging.h in Headers */,
+				90B05B861B02450900354056 /* MagicalRecordShorthandMethodAliases.h in Headers */,
 				905D07721A63DEF40076B54E /* MagicalRecordDeprecationMacros.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2275,8 +2275,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CURRENT_PROJECT_VERSION = 2.2.99;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.2.99;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 2.0;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
